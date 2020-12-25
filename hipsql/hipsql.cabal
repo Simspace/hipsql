@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 8cece6a70f443c909dcd5d4e15b5cbe6746d78f17e7639a7cb1ad5b7a1914a89
+-- hash: e4c707aae3f5fcae7f1d0a4883f8ef47ce6301c7ddcd038d0ab31de262c37ae6
 
 name:           hipsql
 version:        0.0.0.0
@@ -66,6 +66,7 @@ test-suite hipsql-test
   main-is: Spec.hs
   other-modules:
       Spec.Infra
+      Spec.Infra.Resources
       Paths_hipsql
   hs-source-dirs:
       test-suite
