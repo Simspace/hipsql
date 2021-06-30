@@ -1,5 +1,5 @@
 name:                hipsql-client
-version:             0.0.0.0
+version:             0.0.0.1
 github:              "simspace/hipsql"
 license:             BSD3
 author:              "Cary Robbins"
@@ -21,8 +21,8 @@ dependencies:
 - http-client >= 0.6.4.1 && < 0.7
 - http-types >= 0.12.3 && < 0.13
 - mtl >= 2.2.2 && < 2.3
-- servant-client >= 0.16 && < 0.17
-- servant-client-core >= 0.16 && < 0.17
+- servant-client >= 0.16 && < 0.19
+- servant-client-core >= 0.16 && < 0.19
 
 ghc-options:
 - -Wall

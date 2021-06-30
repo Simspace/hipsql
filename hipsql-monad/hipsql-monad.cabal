@@ -1,13 +1,13 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.31.2.
+-- This file has been generated from package.yaml by hpack version 0.33.0.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 51f7c0aa4ca8fedab77c5c2425e8d829741e8d96ef9970bf786a36224375fb27
+-- hash: 1fbc742718d27125a0aa9d46f8680565e2b0b3e01ef917ae1c18ec24523f4eb9
 
 name:           hipsql-monad
-version:        0.0.0.0
+version:        0.0.0.1
 description:    Please see the README on GitHub at <https://github.com/simspace/hipsql#readme>
 homepage:       https://github.com/simspace/hipsql#readme
 bug-reports:    https://github.com/simspace/hipsql/issues

@@ -1,5 +1,5 @@
 name:                hipsql-api
-version:             0.0.0.0
+version:             0.0.0.1
 github:              "simspace/hipsql"
 license:             BSD3
 author:              "Cary Robbins"
@@ -13,9 +13,9 @@ description:         Please see the README on GitHub at <https://github.com/sims
 
 dependencies:
 - base >= 4.7 && < 5
-- aeson >= 1.4.7.1 && < 1.5
+- aeson >= 1.4.7.1 && < 1.6
 - bytestring >= 0.10.10.0 && < 0.11
-- servant >= 0.16 && < 0.17
+- servant >= 0.16 && < 0.19
 
 ghc-options:
 - -Wall

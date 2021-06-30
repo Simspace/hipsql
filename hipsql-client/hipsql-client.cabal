@@ -1,13 +1,13 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.31.2.
+-- This file has been generated from package.yaml by hpack version 0.33.0.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 08d9a8e124f88e84e73767f540d73e26aa48d66c68fa9bc9ef8b32e31e2427d4
+-- hash: 1c61f5905516e8dad43d8f824462a30462339a946f90d574e2a90b4011e2c161
 
 name:           hipsql-client
-version:        0.0.0.0
+version:        0.0.0.1
 description:    Please see the README on GitHub at <https://github.com/simspace/hipsql#readme>
 homepage:       https://github.com/simspace/hipsql#readme
 bug-reports:    https://github.com/simspace/hipsql/issues
@@ -41,8 +41,8 @@ library
     , http-client >=0.6.4.1 && <0.7
     , http-types >=0.12.3 && <0.13
     , mtl >=2.2.2 && <2.3
-    , servant-client >=0.16 && <0.17
-    , servant-client-core >=0.16 && <0.17
+    , servant-client >=0.16 && <0.19
+    , servant-client-core >=0.16 && <0.19
   default-language: Haskell2010
 
 executable hipsql
@@ -63,8 +63,8 @@ executable hipsql
     , http-client >=0.6.4.1 && <0.7
     , http-types >=0.12.3 && <0.13
     , mtl >=2.2.2 && <2.3
-    , servant-client >=0.16 && <0.17
-    , servant-client-core >=0.16 && <0.17
+    , servant-client >=0.16 && <0.19
+    , servant-client-core >=0.16 && <0.19
   if os(darwin)
     ghc-options: -optP-Wno-nonportable-include-path
   default-language: Haskell2010

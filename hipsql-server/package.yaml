@@ -1,5 +1,5 @@
 name:                hipsql-server
-version:             0.0.0.0
+version:             0.0.0.1
 github:              "simspace/hipsql"
 license:             BSD3
 author:              "Cary Robbins"
@@ -19,7 +19,7 @@ dependencies:
 - bytestring >= 0.10.10.0 && < 0.11
 - mtl >= 2.2.2 && < 2.3
 - postgresql-libpq >= 0.9.4.2 && < 0.10
-- servant-server >= 0.16 && < 0.17
+- servant-server >= 0.16 && < 0.19
 - warp >= 3.3.13 && < 3.4
 
 ghc-options:
